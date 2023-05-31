@@ -16,7 +16,7 @@ class HomePage extends Intropage{
   ''');
 
     int? number = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
-    if (number<1 || number>4) {
+    if (number>1 || number<4) {
       switch (number) {
         case 1:
           create();
